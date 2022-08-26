@@ -5,11 +5,11 @@ import json
 import io
 
 # In the url mention the Jira url used
-url = "https://ashima-rawat.atlassian.net/rest/api/2/issue/"
+url = "https://xxxxxxxxx.atlassian.net/rest/api/2/issue/"
 
 # We are using HTTPBasicAuth authentication method here.
 # For that create a JIRA api token and mention your userid and token down in the brackets()
-auth = HTTPBasicAuth("ashima.rawat2@gmail.com", "uHJpsCMLZ5gsapqHlzhO5308")
+auth = HTTPBasicAuth("xxxxxxxxx", "xxxxxxxxxxxxxx")
 
 headers = {
    "Accept": "application/json",
