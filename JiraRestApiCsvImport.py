@@ -2,7 +2,7 @@
 import requests
 import json
 import io
-url= "https://ashima-rawat.atlassian.net/rest/api/2/issue/"
+url= "https://xxxxxxxx.atlassian.net/rest/api/2/issue/"
 headers={
     "Accept": "application/json",
     "Content-Type": "application/json"
@@ -29,5 +29,5 @@ for rows in data:
    }
 }
 )
- response=requests.post(url,headers=headers,data=payload,auth=("ashima.rawat2@gmail.com", "uHJpsCMLZ5gsapqHlzhO5308"))
+ response=requests.post(url,headers=headers,data=payload,auth=("xxxxxxxxxxxx", "xxxxxxxxxxxxxx"))
  print(response.text)
